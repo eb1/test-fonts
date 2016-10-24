@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    id          = "org.adaptit.testfonts"
+    versionCode = "1" 
+    version     = "0.1.0"
+    defaultlocale = "en">
+    <name>testfonts</name>
+    <description>
+        A simple app that demonstrates the use of the cordova-plugin-fonts plugin.
+    </description>
+    <author email="developers@adapt-it.org" href="http://adapt-it.org/">
+        Adapt It Team
+    </author>
+    <!-- IMPORTANT / BEFORE BUILDING:
+        Be sure to add the cordova-fonts plugin and test frameworks:
+        - cordova plugin add https://github.com/adapt-it/cordova-fonts.git
+        - cordova plugin add https://github.com/adapt-it/cordova-fonts.git#:/tests
+        - cordova plugin add http://git-wip-us.apache.org/repos/asf/cordova-plugin-test-framework.git
+        This makes sure we have the appropriate index.html (i.e., the one in cdvtests, added when the plugins are added)
+    -->
+    <content src="cdvtests/index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
