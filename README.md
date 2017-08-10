@@ -14,4 +14,10 @@ The cordova-fonts plugin uses the cordova-plugin-test-framework to run unit test
         cordova plugin add https://github.com/adapt-it/cordova-fonts.git#:/tests
         cordova plugin add http://git-wip-us.apache.org/repos/asf/cordova-plugin-test-framework.git
 
+    OR, if you are modifying the source for cordova-plugin-fonts, you can refer to your local clone instead of the version on GitHub (this example assumes `test-fonts` is in a sibling directory to `cordova-fonts`):
+
+        cordova plugin add ../cordova-fonts
+        cordova plugin add ../cordova-fonts/tests
+        cordova plugin add http://git-wip-us.apache.org/repos/asf/cordova-plugin-test-framework.git
+
 3. Build and run the application in an emulator or on the device.
