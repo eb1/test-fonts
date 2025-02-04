@@ -1,0 +1,20 @@
+# ignore any IDE or OS-generated data
+.vscode
+node_modules
+platforms
+plugins
+typings
+
+*.csproj.user
+*.suo
+*.cache
+Thumbs.db
+*.DS_Store
+
+*.bak
+*.cache
+*.log
+*.swp
+*.user
+
+package-lock.json
